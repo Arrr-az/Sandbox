@@ -1,0 +1,341 @@
+@font-face{
+    font-family: Buda-Light;
+    src:url("../fonts/Buda-Light.ttf");
+}
+body{
+    font-family: Buda-light;
+    margin: 0;
+    background-color: #ECE4B7;
+}
+.header{
+    overflow: hidden;
+    background-color: #DD6031;
+    padding: 10px;
+}
+.header h2{
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.links{
+    text-align: center;
+    margin-right: 17%;
+    padding-top: 24px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.links a:hover{
+    color: #EABE7C;
+    transition: 0.3s;
+}
+@media screen and (max-width:500px) {
+    .links a{
+        display: none;
+    }
+}
+.contact{
+    float: right;
+    text-align: center;
+    padding-top: 15px;
+}
+.contact img{
+    width: 40%;
+}
+@media screen and (max-width:500px) {
+    .contact{
+        display: none;
+    }
+}
+.menu-op{
+    background-color: #DD6031;
+    height: 100%;
+    text-align: center;
+    padding: 10px;
+    display: none;
+}
+.menu-op a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+@media screen and (max-width:500px) {
+    .menu-op{
+        display: block;
+    }
+}
+.banner{
+    background-image: url("../img/caramelo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.banner img{
+    width: 40%;
+}
+@media screen and (max-width:500px) {
+    .banner img{
+        width: 80%;
+    }
+}
+.btn{
+    background-color: #DD6031;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #DD6031;
+}
+.btn:hover{
+    background-color: transparent;
+    color: #DD6031;
+    transition: 0.3s;
+}
+.input {
+    padding: 5px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #DD6031;
+    background-color: #ffffff;
+    color: #DD6031;
+    border-style: solid;
+    border-radius: 6px;
+    box-shadow: 0px 0px 3px rgba(66,66,66,.50);
+    width: 30%;
+    height: 30px;
+}
+@media screen and (max-width:500px) {
+    .input{
+        width: 80%;
+    }
+}
+
+/** Sobre **/
+.sobre{
+    background-color: #EABE7C;
+    padding-top: 4%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 4%;
+}
+.caixa-interior1{
+    background-color: #ECE4B7;
+}
+.grid-sobre{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 50px;
+    grid-column-gap: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 0%;
+}
+.grid-sobre p{
+    font-size: x-large;
+    padding-left: 10%;
+    padding-right: 4%;
+    padding-top: 9%;
+}
+.sobre .caixa-interior1 h1{
+    margin-bottom: 4%;
+}
+.sobre .caixa-interior1 img{
+    width: 75%;
+    padding-left: 10%;
+    border-radius: 50%;
+    margin-bottom: 10%;
+    display: block;
+}
+@media screen and (max-width:500px) {
+    .sobre .caixa-interior1 img{
+        display: none;
+    }
+}
+
+/** Ensaios **/
+.ensaios{
+    background-color: #ECE4B7;
+    padding-top: 4%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 4%;
+    text-align: center;
+}
+.caixa-interior2{
+    background-color: #EABE7C;
+    padding: 15px;
+    text-align: center;
+}
+.row{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 50px;
+    grid-column-gap: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.row-mobile{
+    display: none;
+    margin-bottom: 25px;
+}
+@media screen and (max-width:500px) {
+    .row{
+        display: none;
+    }
+    .row-mobile{
+        display: block;
+    }
+}
+.row img{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 10px 40px 10px; 
+}
+.row-mobile img{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 10px 40px 10px; 
+}
+
+.pedido-finalizado{
+    background-color: #ECE4B7;
+    padding-top: 4%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 4%;
+    text-align: center;
+    height: 500px;
+}
+
+/** Contato**/
+.contato{
+    background-color: #EABE7C;
+    padding-top: 4%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 4%;
+    text-align: center;
+}
+.contato .caixa-interior1 img{
+    width: 25%;
+    margin-top: 3%;
+}
+@media screen and (max-width:500px) {
+    .contato .caixa-interior1 img{
+        width: 70%;
+        margin-top: 3%;
+    }
+}
+
+h1{
+    text-align: center;
+    padding-top: 4%;
+}
+
+/** Footer **/
+.footer{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background-color: #DD6031;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
+}
+.footer p{
+    text-align: center;
+    color: white;
+    margin-top: 0%;
+    margin-bottom: 0.5%;
+}
+.footer img{
+    width: 2%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+@media screen and (max-width:500px) {
+    .footer img{
+        width: 8%;
+    }
+}
+.botoes-footer{
+    align: center;
+    text-align: center;
+}
+
+/** Pagina Contato **/
+
+.pg-contato{
+    background-color: #EABE7C;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 4%;
+    margin-top: -2%;
+    text-align: center;
+}
+form{
+    padding-top: 4%;
+}
+.pg-contato .caixa-interior1 img{
+    width: 25%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+@media screen and (max-width:500px) {
+    .pg-contato .caixa-interior1 img{
+        width: 70%;
+        margin-top: 3%;
+    }
+}
+
+.pg-contato h1{
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+/** Projeto de Site **/
+
+.pg-projeto{
+    background-color: #EABE7C;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 4%;
+    margin-top: -2%;
+    text-align: left;
+}
+form{
+    padding-top: 4%;
+}
+.pg-projeto .caixa-interior1 img{
+    width: 25%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+@media screen and (max-width:500px) {
+    .pg-projeto .caixa-interior1 img{
+        width: 70%;
+        margin-top: 3%;
+    }
+}
+.pg-projeto .row{
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 10%;
+}
+.pg-projeto .row-mobile{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+}
+.pg-projeto h1{
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
